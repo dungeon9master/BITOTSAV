@@ -1,0 +1,44 @@
+[
+    {
+	"Post":"Student Co-ordinators",
+	"Members":[{"id":1,
+		"name":"Rishav",
+		"contact":"8804010462"},
+		 {"id":2,
+			 "name":"Komal Gupta",
+			 "contact":"7541921920"}]
+    },
+    {
+	"Post":"Student Co-ordinators",
+	"Members":[{"id":3,
+		"name":"Greeshma Mathew",
+		"contact":""},
+		 {"id":4,
+			 "name":"Aditi Srivastava",
+			 "contact":""}]
+    },
+    {
+	"Post":"Publicity",
+	"Members":[{"id":5,
+		"name":"Pratyush Prakash",
+		"contact":"9955910141"},
+		 {"id":6,
+			 "name":"Zainab Feroz",
+			 "contact":""}]
+    },
+    {
+	"Post":"Web",
+	"Members":[{"id":7,
+		"name":"Aditya Vikram Singh",
+		"contact":"99931801313"},
+		 {"id":8,
+			 "name":"Maloy Rakshit",
+			 "contact":"9006083548"}]
+    },
+    {
+	"Post":"Finance & Sponsorship",
+	"Members":[{"id":9,
+		"name":"Kislay Jha",
+		"contact":"7979075489"}]
+    }
+]

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/toolbar"
+    android:background="#bc1077f5">
+
+    <ImageView
+        android:id="@+id/personImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="5dp"
+        android:scaleType="fitCenter" />
+
+    <TextView
+        android:id="@+id/personName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/personImage"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:paddingLeft="8dp"
+        android:text="ajkhgdawkj"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/callImage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/personName"
+        android:layout_marginTop="10dp"
+        android:background="@android:drawable/ic_menu_call"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/callNumber"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/personName"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/callImage"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/mailImage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/callImage"
+        android:layout_marginTop="4dp"
+        android:background="@android:drawable/sym_action_email"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/mailText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/callNumber"
+        android:layout_marginTop="10dp"
+
+        android:layout_toRightOf="@+id/mailImage"
+        android:background="@android:color/transparent" />
+
+    <ImageView
+        android:id="@+id/callMe"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/mailText"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/call"
+        android:scaleType="centerCrop" />
+
+    <ImageView
+        android:id="@+id/facebook"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/mailText"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/facebook"
+        android:scaleType="centerCrop" />
+</RelativeLayout>
